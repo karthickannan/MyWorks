@@ -17,10 +17,14 @@
         <!-- Include kkNumbersOnly Directive files -->
         <script src="Directives/kkNumbersOnly/kkNumbersOnlyDirective.js"></script>
         
+        <!-- Include kkEnlarge Directive files -->
+        <script src="Directives/kkEnlarge/kkEnlargeDirective.js"></script>
+        
     </head>
     <body ng-app="MyWorks" ng-controller="MainController">
         <div>TODO write content</div>
-        <input type="text" ng-model="tet" kk-numbers-only="20" />
-        <label ng-bind="tet"></label>
+        <input type="text" ng-model="tet" kk-numbers-only="20" kk-enlarge />
+        <label ng-bind="tet" kk-enlarge></label>
+        <img src="https://www.google.co.in/images/srpr/logo11w.png" alt="Google image" kk-enlarge="10" />
     </body>
 </html>
