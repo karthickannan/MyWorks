@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AngularJS - Demo Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Include JS library files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        
+        <!-- Include App JS file -->
+        <script src="app.js"></script>
+        
+        <!-- Include Main Controller JS file -->
+        <script src="MainController.js"></script>
+        
+        <!-- Include kkNumbersOnly Directive files -->
+        <script src="Directives/kkNumbersOnly/kkNumbersOnlyDirective.js"></script>
+        
+    </head>
+    <body ng-app="MyWorks" ng-controller="MainController">
+        <div>TODO write content</div>
+        <input type="text" ng-model="tet" kk-numbers-only="20" />
+        <label ng-bind="tet"></label>
+    </body>
+</html>
