@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('MyWorks', ['kkNumbersOnly']);
+angular.module('MyWorks', ['kkNumbersOnly', 'kkEnlarge']);
